@@ -1,4 +1,5 @@
 :root {
+  /* Definição de cores personalizadas */
   --slightly-desaturated-cyan: #5fb4a2;
   --dark-blue: #203a4c;
   --grayish-dark-blue: #33323d;
@@ -7,30 +8,37 @@
 }
 
 * {
+  /* Reseta as margens e preenchimentos */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
+  /* Definição da fonte padrão para o documento HTML */
   font-family: "Ibarra Real Nova", "Public Sans", sans-serif;
 }
 
 .container {
+  /* Estilização do container principal */
   padding: 16px 40px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 a {
+  /* Estilização de links */
   text-decoration: none;
   color: var(--dark-blue);
 }
 
 .menu-items {
+  /* Remove a estilização padrão de lista */
   list-style: none;
 }
 
 .nav-bar {
+  /* Estilização da barra de navegação */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,15 +46,18 @@ a {
 }
 
 .nav-bar ul {
+  /* Estilização da lista de itens de navegação */
   display: flex;
   gap: 30px;
 }
 
 .nav-bar a:hover {
+  /* Estilização do hover nos links de navegação */
   color: var(--slightly-desaturated-cyan);
 }
 
 .container .home-page {
+  /* Estilização da seção da página inicial */
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -59,6 +70,7 @@ a {
 }
 
 .home-page-text {
+  /* Estilização do texto da página inicial */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,6 +88,7 @@ a {
 }
 
 .about-button {
+  /* Estilização do botão "Sobre" */
   display: flex;
   align-items: center;
   margin-top: 36px;
@@ -95,15 +108,18 @@ a {
 }
 
 .about-button img {
+  /* Estilização da imagem dentro do botão "Sobre" */
   width: 20px;
   height: 20px;
 }
 
 .about-button:hover {
+  /* Estilização do hover no botão "Sobre" */
   background: var(--slightly-desaturated-cyan);
 }
 
 .about {
+  /* Estilização da seção "Sobre" */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,11 +128,13 @@ a {
 }
 
 .about img {
+  /* Estilização da imagem na seção "Sobre" */
   width: 540px;
   height: auto;
 }
 
 .about div {
+  /* Estilização do conteúdo de texto na seção "Sobre" */
   max-width: 500px;
   font-family: "Public Sans";
   font-style: normal;
@@ -127,15 +145,18 @@ a {
 }
 
 .about-text {
+  /* Estilização do texto justificado na seção "Sobre" */
   text-align: justify;
 }
 
 .container-button {
+  /* Estilização do contêiner de botões */
   width: 250px;
   margin-top: 24px;
 }
 
 .button {
+  /* Estilização dos botões */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,10 +176,13 @@ a {
 }
 
 .button:hover {
+  /* Estilização do hover nos botões */
   background: var(--grayish-dark-blue);
   color: var(--light-grey);
 }
+
 .contact {
+  /* Estilização da seção de contato */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -169,6 +193,7 @@ a {
 }
 
 .contact h2 {
+  /* Estilização do título na seção de contato */
   font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
@@ -178,6 +203,7 @@ a {
 }
 
 footer {
+  /* Estilização do rodapé */
   background: var(--grayish-dark-blue);
   display: flex;
   justify-content: space-between;
@@ -186,26 +212,31 @@ footer {
 }
 
 footer a {
+  /* Estilização dos links no rodapé */
   color: var(--very-light-grey);
 }
 
 footer ul {
+  /* Estilização da lista no rodapé */
   display: flex;
   gap: 10px;
 }
 
 .icons {
+  /* Estilização dos ícones de mídia social */
   display: flex;
   gap: 15px;
 }
 
 .nav-button {
+  /* Estilização dos botões de navegação */
   width: 650px;
   display: flex;
   gap: 35px;
 }
 
 .container-footer {
+  /* Estilização do contêiner do rodapé */
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -213,17 +244,20 @@ footer ul {
 }
 
 .project img {
+  /* Estilização das imagens dos projetos */
   width: 100%;
   height: auto;
 }
 
 .project-text {
+  /* Estilização do texto dos projetos */
   width: 350px;
   text-align: justify;
   padding: 35px;
 }
 
 .project-text h2 {
+  /* Estilização do título do projeto */
   font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
@@ -233,6 +267,7 @@ footer ul {
 }
 
 .project-text p {
+  /* Estilização dos parágrafos do projeto */
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
@@ -242,11 +277,13 @@ footer ul {
 }
 
 .preview p {
+  /* Estilização dos parágrafos na pré-visualização */
   margin-bottom: 15px;
   text-align: justify;
 }
 
 .preview {
+  /* Estilização da pré-visualização */
   display: flex;
   justify-content: space-between;
   font-family: "Public Sans";
@@ -258,6 +295,7 @@ footer ul {
 }
 
 .preview h1 {
+  /* Estilização do título principal na pré-visualização */
   margin-bottom: 15px;
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -268,6 +306,7 @@ footer ul {
 }
 
 .preview h2 {
+  /* Estilização do subtitulo na pré-visualização */
   margin-bottom: 15px;
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -277,41 +316,51 @@ footer ul {
 }
 
 .preview-image {
+  /* Estilização da imagem na pré-visualização */
   width: 635px;
   height: 400px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
 .preview-container-left {
+  /* Estilização do contêiner da esquerda na pré-visualização */
   width: 350px;
 }
+
 .preview-container-left .p-green {
+  /* Estilização do texto verde na pré-visualização */
   color: var(--slightly-desaturated-cyan);
 }
 
 .preview-container-right {
+  /* Estilização do contêiner da direita na pré-visualização */
   width: 635px;
 }
 
-.dar-um-nome {
+.project-navigation {
+  /* Estilização da navegação dos projetos */
   display: flex;
   justify-content: space-between;
 }
 
-.dar-um-nome-left {
+.project-navigation-left {
+  /* Estilização da navegação para a esquerda nos projetos */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.dar-um-nome-right {
+.project-navigation-right {
+  /* Estilização da navegação para a direita nos projetos */
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
 }
 
-.dar-um-nome-left img,
-.dar-um-nome-right img {
+.project-navigation img,
+.project-navigation img {
+  /* Estilização das imagens de navegação dos projetos */
   margin: 15px;
 }
