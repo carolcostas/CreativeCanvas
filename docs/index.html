@@ -1,107 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Metadados e links para estilos e fontes -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&family=Public+Sans:wght@200;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Home</title>
-  </head>
-  <body>
-    <header class="nav-bar container">
-      <!-- Cabeçalho com logotipo e itens de menu -->
-      <img src="../../assets/logo-dark.svg" alt="logo-light" />
-      <ul>
-        <li class="menu-items">
-          <a href="../home/index.html" id="home">HOME</a>
-        </li>
-        <li class="menu-items">
-          <a href="../home/portfolio.html" id="portfolio">PORTFÓLIO</a>
-        </li>
-        <li class="menu-items">
-          <a href="contato.html" id="contato">CONTATO</a>
-        </li>
-      </ul>
-    </header>
-    <section class="container">
-      <div class="home-page">
-        <div class="home-page-text">
-          <!-- Texto da página inicial -->
-          Olá, meu nome é Alex Spencer e eu amo criar websites bonitos
-          
-          <a href="#about">
-            <button class="button-home-page">
-            
-            <img
-              src="../../assets/icons/down-arrows.svg"
-              alt="down-arrows-icon"
-            />
+
+<head>
+  <!-- Metadados e links para estilos e fontes -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&family=Public+Sans:wght@200;400;600;700&display=swap" rel="stylesheet" />
+  <title>Home</title>
+</head>
+
+<body>
+  <header class="nav-bar container">
+    <!-- Cabeçalho com logotipo e itens de menu -->
+    <img src="../assets/logo-light.svg" alt="logo-light" />
+    <ul>
+      <li class="menu-items">
+        <a href="index.html" id="home">HOME</a>
+      </li>
+      <li class="menu-items">
+        <a href="../pages/portfolio-01-manage/index.html" id="portfolio">PORTFÓLIO</a>
+      </li>
+      <li class="menu-items">
+        <a href="#" id="contato">CONTATO</a>
+      </li>
+    </ul>
+  </header>
+  <section class="container">
+    <div class="home-page">
+      <div class="home-page-text">
+        <!-- Texto da página inicial -->
+        Olá, meu nome é Alex Spencer e eu amo criar websites bonitos
+
+        <a href="#about">
+          <button class="button-home-page">
+
+            <img src="../assets/icons/down-arrows.svg" alt="down-arrows-icon" />
             SOBRE MIM
           </button>
-          </a>
-        </div>
+        </a>
       </div>
-    </section>
-    <main class="about container" id="about">
-      <img
-        src="../../assets/home/image-homepage-profile.jpg"
-        alt="image-profile"
-      />
-      <div class="about-text">
-        <h2>Sobre mim</h2>
-        <p>
-          <!-- Texto sobre o desenvolvedor -->
-          Sou um desenvolvedor front-end júnior em busca de oportunidades. Meu
-          foco é escrever HTML acessível, usar práticas modernas de CSS e
-          escrever JavaScript limpo. Quando estou codificando em JavaScript,
-          geralmente estou usando React, mas também posso me adaptar a qualquer
-          ferramenta, se necessário. Moro em Londres, Reino Unido, mas também
-          estou feliz em trabalhar remotamente e tenho experiência em equipes
-          remotas. Quando não estou codificando, gosto de passar tempo ao ar
-          livre. Adoro fazer caminhadas, correr ou andar de bicicleta. Eu
-          adoraria que você desse uma olhada no meu trabalho.
-        </p>
-        <a href="../home/portfolio.html"><button class="button">IR PARA PORTFÓLIO</button></a>
+    </div>
+  </section>
+  <main class="about container" id="about">
+    <img src="../assets/home/image-homepage-profile.jpg" alt="image-profile" />
+    <div class="about-text">
+      <h2>Sobre mim</h2>
+      <p>
+        <!-- Texto sobre o desenvolvedor -->
+        Sou um desenvolvedor front-end júnior em busca de oportunidades. Meu
+        foco é escrever HTML acessível, usar práticas modernas de CSS e
+        escrever JavaScript limpo. Quando estou codificando em JavaScript,
+        geralmente estou usando React, mas também posso me adaptar a qualquer
+        ferramenta, se necessário. Moro em Londres, Reino Unido, mas também
+        estou feliz em trabalhar remotamente e tenho experiência em equipes
+        remotas. Quando não estou codificando, gosto de passar tempo ao ar
+        livre. Adoro fazer caminhadas, correr ou andar de bicicleta. Eu
+        adoraria que você desse uma olhada no meu trabalho.
+      </p>
+      <a href="../pages/portfolio-01-manage/index.html"><button class="button">IR PARA PORTFÓLIO</button></a>
+    </div>
+  </main>
+  <!--Seção de Contato-->
+  <section class="contact container">
+    <h2>Interessado em trabalhar em projetos comigo?</h2>
+    <div class="container-button">
+      </a><button class="button">CONTATO</button>
+    </div>
+  </section>
+  <!-- Rodapé-->
+  <footer>
+    <div class="container-footer container">
+      <div class="nav-button">
+        <img src="../assets/logo-light.svg" alt="logo-light" />
+        <ul>
+          <li class="menu-items"><a href="./index.html" id="home">HOME</a></li>
+          <li class="menu-items">
+            <a href="../pages/portfolio-01-manage/index.html" id="portfolio">PORTFÓLIO</a>
+          </li>
+          <li class="menu-items">
+            <a href="#" id="contato">CONTATO</a>
+          </li>
+        </ul>
       </div>
-    </main>
-    <!--Seção de Contato-->
-    <section class="contact container">
-      <h2>Interessado em trabalhar em projetos comigo?</h2>
-      <div class="container-button">
-        </a><button class="button">CONTATO</button>
+      <div class="icons">
+        <!-- Ícones de redes sociais -->
+        <img src="../assets/icons/github-light.svg" alt="github-light" />
+        <img src="../assets/icons/twitter-light.svg" alt="twitter-light" />
+        <img src="../assets/icons/linkedin-light.svg" alt="linkedin-light" />
       </div>
-    </section>
-    <!-- Rodapé-->
-    <footer>
-      <div class="container-footer container">
-        <div class="nav-button">
-          <img src="../../assets/logo-light.svg" alt="logo-light" />
-          <ul>
-            <li class="menu-items"><a href="index.html" id="home">HOME</a></li>
-            <li class="menu-items">
-              <a href="../home/portifolio.html" id="portfolio">PORTFÓLIO</a>
-            </li>
-            <li class="menu-items">
-              <a href="#" id="contato">CONTATO</a>
-            </li>
-          </ul>
-        </div>
-        <div class="icons">
-          <!-- Ícones de redes sociais -->
-          <img src="../../assets/icons/github-light.svg" alt="github-light" />
-          <img src="../../assets/icons/twitter-light.svg" alt="twitter-light" />
-          <img
-            src="../../assets/icons/linkedin-light.svg"
-            alt="linkedin-light"
-          />
-        </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
